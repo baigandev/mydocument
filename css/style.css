@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    border-radius: 10px;
+    width: 500px;
+    height: 600px;
+    background: -webkit-linear-gradient(45deg, rgb(123, 116, 234), rgb(88, 83, 161));
+    background: -moz-linear-gradient(45deg, rgb(123, 116, 234), rgb(88, 83, 161));
+    background: linear-gradient(45deg, rgb(123, 116, 234), rgb(88, 83, 161));
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    -webkit-box-shadow: -2px -7px 61px 17px rgba(115, 183, 229, 0.28);
+    -moz-box-shadow: -2px -7px 61px 17px rgba(115, 183, 229, 0.28);
+    box-shadow: -2px -7px 61px 17px rgba(115, 183, 229, 0.28);
+}
+.block-img{
+    background: linear-gradient(45deg, #60c5bf, #4772b6);
+    width: 100%;
+    padding: 30px 0;
+    height: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.block-img img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 160px;
+    top: 137px;
+}
+.block-title{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.block-title h1{
+    font-weight: 100;
+    color: wheat;
+}
+.block-title p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0 40px 0;
+}
+.block-title button{
+    padding: 15px 30px;
+    background: #d43b3b;
+    border-radius: 5px;
+    color: white;
+}
